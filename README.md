@@ -1,7 +1,7 @@
 #PHP Geocode
-[![Build Status](https://travis-ci.org/kamranahmedse/php-geocode.svg?branch=master)](https://travis-ci.org/kamranahmedse/php-geocode)
-[![Latest Stable Version](https://poser.pugx.org/kamranahmedse/php-geocode/v/stable.svg)](https://packagist.org/packages/kamranahmedse/php-geocode)
-[![License](https://poser.pugx.org/kamranahmedse/php-geocode/license.svg)](https://packagist.org/packages/kamranahmedse/php-geocode)
+[![Build Status](https://travis-ci.org/lucmousinho/php-geocode.svg?branch=master)](https://travis-ci.org/lucmousinho/php-geocode)
+[![Latest Stable Version](https://poser.pugx.org/lucmousinho/php-geocode/v/stable.svg)](https://packagist.org/packages/lucmousinho/php-geocode)
+[![License](https://poser.pugx.org/lucmousinho/php-geocode/license.svg)](https://packagist.org/packages/lucmousinho/php-geocode)
 
 A wrapper around the Google Geocoding API to get different details regarding an address such as 
 - Latitude/longitude
@@ -18,16 +18,16 @@ PHP >= 5.3.0 and <code>curl</code> enabled server.
 ##Installation
 You can install the library using the following ways
 ##Composer
-The recommended installation method is through <a href="http://getcomposer.org/">Composer</a>, a dependency manager for PHP. Just add <code>kamranahmedse/php-geocode</code> to your project's <code>composer.json</code> file:
+The recommended installation method is through <a href="http://getcomposer.org/">Composer</a>, a dependency manager for PHP. Just add <code>lucmousinho/php-geocode</code> to your project's <code>composer.json</code> file:
 
 ```
 {
     "require": {
-        "kamranahmedse/php-geocode": "*"
+        "lucmousinho/php-geocode": "*"
     }
 }
 ```
-and then run <code>composer install</code>. For further details you can find the package at <a href="https://packagist.org/packages/kamranahmedse/php-geocode">Packagist</a>.
+and then run <code>composer install</code>. For further details you can find the package at <a href="https://packagist.org/packages/lucmousinho/php-geocode">Packagist</a>.
 
 ##Manual way
 Or you can install the package manually by:
@@ -43,7 +43,7 @@ I'm going to use the following address to explain the use of library i.e.
 Firstly, you have to instantiate the <code>Geocode</code> class and pass the address, so your code will look like
 ```
 // Introduce the class into your scope
-use kamranahmedse\Geocode;
+use lucmousinho\Geocode;
 
 $address = "1600 Amphitheatre Parkway, Mountain View, CA";
 
